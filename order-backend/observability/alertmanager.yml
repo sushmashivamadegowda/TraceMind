@@ -1,0 +1,7 @@
+route:
+  receiver: 'incident-manager'
+
+receivers:
+  - name: 'incident-manager'
+    webhook_configs:
+      - url: 'http://incident-manager:8081/webhook'
